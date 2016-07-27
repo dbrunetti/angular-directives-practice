@@ -1,0 +1,17 @@
+<div class="{{post.class}}">	
+	<div class="col-xs-2">
+		<img ng-src="{{post.image.url}}" ng-alt="{{post.image.alt}}">
+		<br>
+		<h3>By: {{post.author}}</h3> 
+	</div>
+	<div class="col-xs-6">
+		<h2>{{post.title}}</h2>	 
+		<p>{{post.text}}</p>
+	</div>
+	<div class="col-xs-4">
+		<h4>Top Comments:</h4>
+		<ul>
+			<li ng-repeat="comment in post.comments">{{comment}}</li>
+		</ul>
+	</div>
+</div>

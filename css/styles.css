@@ -1,0 +1,17 @@
+img {
+	max-width: 100%;
+}
+
+.post {
+	height:175px;
+	overflow: scroll;
+}
+
+h1 {
+	margin-bottom: 50px;
+}
+
+h2 {
+	margin-top: 0;
+}
+
